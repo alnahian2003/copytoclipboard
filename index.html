@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Copy To Clipboard | Al Nahian</title>
+</head>
+
+<body>
+    <!-- wrapper -->
+    <div class="wrapper">
+        <!-- heading -->
+        <h1>Copy To Clipboard</h1>
+        <div class="dummy-text">
+            <div class="main-area">
+                <div class="main-text" id="main-dummy-text">
+                    <!-- Main Dummy Text -->
+                    <textarea id="input" cols="50" rows="11" onclick="this.focus();this.select()"
+                        placeholder="Copy the dummy text or write something and then try 'Copy To Clipboard'">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </textarea>
+                </div>
+
+                <!-- Button Section -->
+                <button onclick="playSound();" id="copy" class="btn">
+                    <span class="copy-button-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13 7H7V5H13V7Z" fill="currentColor" />
+                            <path d="M13 11H7V9H13V11Z" fill="currentColor" />
+                            <path d="M7 15H13V13H7V15Z" fill="currentColor" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M3 19V1H17V5H21V23H7V19H3ZM15 17V3H5V17H15ZM17 7V19H9V21H19V7H17Z"
+                                fill="currentColor" />
+                        </svg>
+                    </span>
+                    <span class="copy-button-text">
+                        Copy To Clipboard
+                    </span>
+                </button>
+
+            </div>
+
+        </div>
+        <div class="developer-credit">
+            <p>Made With
+                <span style="color: #ff0000;">♥</span>
+                By
+                <a target="_blank" href="https://facebook.com/alnahian2003" style="color: #8c52ff; font-weight: 500;">
+                    Al
+                    Nahian</a>
+            </p>
+        </div>
+        <div class="special-credit">
+            <p>Special Thanks To <a target="_blank" href="https://www.youtube.com/channel/UCC-aIlmCJvIERahr2spCEDg"
+                    style="color: #ff7300; font-weight: 600;">JS Bangladesh</p></a>
+        </div>
+    </div>
+
+    <!-- JavaScript File Source -->
+    <script src="main.js"></script>
+</body>
+
+</html>

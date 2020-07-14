@@ -1,0 +1,89 @@
+body {
+    background-color: #f4f0fd;
+    color: #202020;
+    text-align: center;
+    padding-top: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-area {
+    height: 400px;
+    width: 500px;
+    margin: auto;
+}
+
+#input {
+    background-color: #742eff;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 30px 20px 15px 20px;
+    text-align: left;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+
+    box-shadow: 0px 0px 17px 5px #742eff59;
+
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+::placeholder {
+    text-align: center;
+    color: #ececec;
+}
+
+/* Copy Button Styles */
+button {
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 18px;
+    border-radius: 5px;
+    background: #742eff;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 17px 5px #742eff59;
+}
+
+button:hover {
+    background: linear-gradient(180deg, #742eff 5%, #8c52ff 100%);
+}
+
+button:active {
+    background: #35c892;
+    position: relative;
+    top: 1px;
+}
+
+.copy-button-text {
+    text-align: center;
+    padding: 15px 10px;
+    float: left;
+}
+
+.copy-button-icon {
+    border-right: 1px solid rgba(255, 255, 255, 0.16);
+    padding: 10px 10px;
+    float: left;
+}
+
+/* Copy Button Styles End */
+
+
+/* end styling */
