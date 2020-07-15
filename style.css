@@ -1,3 +1,7 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
     background-color: #f4f0fd;
     color: #202020;
@@ -7,6 +11,10 @@ body {
 
 a {
     text-decoration: none;
+}
+
+.wrapper {
+    margin: auto;
 }
 
 .main-area {
